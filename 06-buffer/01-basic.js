@@ -4,7 +4,7 @@ var buf=new Buffer(256);
 buf[0]=23;
 
 console.log('buffer length:',buf.length);
-console.log('buffer content:',buf);
+console.log('buffer content:',buf)
 
 
 for(var i=0;i<256;i++)
